@@ -1,0 +1,36 @@
+/* Gallery Style sheet 
+
+  Author: Gabe Haggard
+  date: 11/24/18
+
+*/
+
+div.gallery {
+    margin:5px;
+    border: 1px solid white;
+    width: 180px;
+}
+
+div.gallery:hover{
+    border: 1px solid lightgreen;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+table.galTable1{
+    position: relative;    
+    left: 600px;
+    right: 600px;
+    top: 100px;
+}
+div.galTables{
+    max-width: 100px;
+    max-height: 100px;
+}
