@@ -17,6 +17,7 @@ h1{
 /* Body Section */
 body{
   background-color: black;
+  height: 100%;
 }
 p{
   color: white;
@@ -35,12 +36,6 @@ ul{
    list-style-type: none;
    font-weight: bold;
 }
-.Home{
-  font-family: 'Orbitron', sans-serif;
-  font-weight: bold;
-  position: absolute;
-  top: 925px;
-}
 .navElements li {
   margin: 0 0 10px 0;
 }
@@ -56,6 +51,23 @@ a:link:hover, a:visited:hover{
 a:link,a:visited{
   text-decoration: none;
   color: black;
+}
+
+/* footer styles */
+footer{
+  position: absolute;
+  bottom: 0;
+  top: 1000px;
+  clear: both;
+  width: 100%;
+  border-top: 2px solid grey; 
+}
+p.bottomFooter{
+  text-align: center;
+  font-style: normal;
+  font-size: 15px;
+  padding: 5px;
+  color: white;
 }
 
 /* Image Styles */
