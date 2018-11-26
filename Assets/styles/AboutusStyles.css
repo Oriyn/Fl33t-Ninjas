@@ -11,12 +11,6 @@ legend{
         text-shadow: 0 0 15px white;
         font-weight: bold;
 }
-p{
-    font-family: 'Orbitron', sans-serif;
-    color: lightgreen;
-    text-shadow: 0 0 15px white;
-    font-weight: bold;
-}
 fieldset{
     background:rgba(0, 0, 0, 0.808);
     position: absolute;

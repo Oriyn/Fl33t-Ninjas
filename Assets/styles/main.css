@@ -19,25 +19,28 @@ body{
   background-image: url("../images/World-of-warcraft.jpg");
   height: 100%;
 }
-p{
-  color: white;
-  text-align: center;
-}
 ul{
    list-style-type: none;
    font-weight: bold;
 }
 a:link:hover, a:visited:hover{
-  color: white;
+  color: red;
   text-shadow: 0 0 15px lightgreen;
 }
 a:link,a:visited{
   text-decoration: none;
-  color: black;
 }
-
+p{
+  font-family: 'Orbitron', sans-serif;
+  color: lightgreen;
+  text-shadow: 0 0 15px white;
+  font-weight: bold;
+  text-align: center;
+}
 /* Navigation bar */
-
+nav{
+  width: 100%;
+}
 .topnav {
   background:rgba(0, 0, 0, 0.808);
   overflow: hidden;
