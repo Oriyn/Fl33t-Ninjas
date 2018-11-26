@@ -27,14 +27,6 @@ ul{
    list-style-type: none;
    font-weight: bold;
 }
-.navElements li {
-  margin: 0 0 10px 0;
-}
-.navElements{
-  font-family: 'Orbitron', sans-serif;
-  position: relative;
-  top: 200px;
-}
 a:link:hover, a:visited:hover{
   color: white;
   text-shadow: 0 0 15px lightgreen;
@@ -47,7 +39,7 @@ a:link,a:visited{
 /* Navigation bar */
 
 .topnav {
-  background-color: #333;
+  background:rgba(0, 0, 0, 0.808);
   overflow: hidden;
 }
 .topnav a {
@@ -57,6 +49,7 @@ a:link,a:visited{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Orbitron', sans-serif;
 }
 /* footer styles */
 footer{
@@ -65,7 +58,7 @@ footer{
   top: 1000px;
   clear: both;
   width: 100%;
-  border-top: 2px solid grey; 
+  border-top: 2px solid rgba(0, 0, 0, 0.808); 
 }
 p.bottomFooter{
   text-align: center;

@@ -19,9 +19,8 @@ p{
 }
 fieldset{
     background:rgba(0, 0, 0, 0.808);
-    position: relative;
-    top: 150px;
-    left: 275px;
-    max-width: 1500px;
+    position: absolute;
+    top: 200px;
+    left: 425px;
 }
 
