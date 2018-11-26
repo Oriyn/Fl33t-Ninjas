@@ -9,8 +9,7 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding: 20px;
-    position: absolute;
-    left: 225px;
+    justify-items: center;
     grid-column-gap: 50px;
     grid-row-gap: 15px;
   }
@@ -35,8 +34,7 @@ h2{
 footer.galFooter{
     position: absolute;
     bottom: 0;
-    top: 2250px;
+    top: 2300px;
     clear: both;
     width: 100%;
-    border-top: 2px solid grey; 
 }
