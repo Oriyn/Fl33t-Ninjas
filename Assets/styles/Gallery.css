@@ -7,11 +7,13 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25%;
     padding: 20px;
     justify-items: center;
+    justify-content: space-evenly;
     grid-column-gap: 50px;
     grid-row-gap: 15px;
+    background:  rgba(0, 0, 0, 0.808); 
   }
   .grid-item {  
     padding: 15px;
@@ -30,11 +32,4 @@ h2{
     text-shadow: 0 0 15px white;
     font-size: 30px;
     font-weight: bold;
-}
-footer.galFooter{
-    position: absolute;
-    bottom: 0;
-    top: 2300px;
-    clear: both;
-    width: 100%;
 }
