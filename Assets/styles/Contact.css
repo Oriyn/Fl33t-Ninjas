@@ -1,0 +1,58 @@
+fieldset{
+	border: 2px solid white;
+	padding: 2%;
+	margin-bottom: 0.8em;
+}
+legend{
+    color: white;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family:Georgia, Times New Roman, times, serif;
+}
+input, textarea{
+	border: 1px solid #777;
+	padding: 0.2em;
+	font-size:1em;
+}
+.contactinfo input {
+	position: absolute;
+	left: 6em;
+}
+.fnameinput, .lnameinput, .emailinput{
+	width: 20em;
+}
+.phoneinput{
+	width: 12em;
+}
+/* label styles*/
+label {
+    font-size: 1.2em;
+    color: white;
+}
+.contactinfo label{
+	display: block;
+	position: relative;
+    margin: 1em 0;
+}
+.membershipinfo label{
+	margin-right: 1em;
+}
+#feedback{
+	width:98%;
+	display:block;
+}
+.submitbutton{
+	border: none;
+	text-align: center;
+}
+
+#submit{
+	border: 1px solid #999;
+	font-size: 1.5em;
+	font-weight:bold;
+	background: #c8f098;
+	border-radius: 0.5em;
+}
+.signUp{
+    background: rgba(0, 0, 0, 0.808);
+}

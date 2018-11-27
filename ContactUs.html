@@ -1,35 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fl33t-Ninjas.com</title>  
-<!--
+
+<head>
+    <title>Fl33t-Ninjas.com</title>
+    <!--
       Author: Gabe Haggard
       Date: 11/21/18
 
       Supporting files: main.css
 
 -->
-      <link rel="icon" href="Assets/images/Fl33t.jpg" type="image/x-icon">
-      <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-      <link href="Assets/styles/main.css" rel="stylesheet" type="text/css"> 
-    </head>   
+    <link rel="icon" href="Assets/images/Fl33t.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="Assets/styles/main.css" rel="stylesheet" type="text/css">
+    <link href="Assets/styles/Contact.css" rel="stylesheet" type="text/css">
+</head>
 
-    <body>
-        <header>
-            <h1>Fl33t Ninjas</h1>
-        </header>
-        <nav class="topnav">
-                <div><a href="index.html">Home</a></div>
-                <div><a href="AboutUs.html">About Us</a></div>
-                <div><a href="ContactUs.html">Contact Us</a></div>
-                <div><a href="GamingHighlights.html">Gaming Highlights</a></div>
-                <div><a href="Gallery.html">Gallery</a></div>
-            </nav>  
-        <div>
-            <p>Template for the Profesional gametards Website!</p>
-        </div>            
-    </body>   
-    <footer>
-        <p class="bottomFooter">Fl33t Ninjas 2018</p>
-    </footer>    
+<body>
+    <header>
+        <h1>Fl33t Ninjas</h1>
+    </header>
+    <nav class="topnav">
+        <div><a href="index.html">Home</a></div>
+        <div><a href="AboutUs.html">About Us</a></div>
+        <div><a href="ContactUs.html">Contact Us</a></div>
+        <div><a href="GamingHighlights.html">Gaming Highlights</a></div>
+        <div><a href="Gallery.html">Gallery</a></div>
+    </nav>
+    <div class="signUp">
+        <article id="contentstart">
+            <h2>Sign Up</h2>
+            <form action="results.html">
+                <fieldset class="contactinfo">
+                    <legend> Contact Information </legend>
+                    <label for="fnameinput">
+                        <input id="fnameinput" name="fname" placeholder="First Name">
+                        First Name
+                    </label>
+                    <label for="lnameinput">
+                        <input id="lnameinput" name="lname" placeholder="Last Name">
+                        Last Name
+                    </label>
+                    <label for="emailinput">
+                        <input id="emailinput" name="email" placeholder="address@example.com">
+                        Email
+                    </label>
+                    <label for="phoneinput">
+                        <input id="phoneinput" name="phone">
+                        Phone
+                    </label>
+                </fieldset>
+                <fieldset class="ageinfo">
+                    <legend> Age Range </legend>
+                    <select>
+                        <option id="D1">4-6</option>
+                        <option id="D2">7-9</option>
+                        <option id="D3">10-12</option>
+                        <option id="D4">13-15</option>
+                        <option id="D5">16-17</option>
+                        <option id="D6">18-35</option>
+                        <option id="D7">36-54</option>
+                        <option id="D8">55+</option>
+                    </select>
+                </fieldset>
+                <fieldset class="membershipinfo">
+                    <legend> Special Memberships </legend>
+                    <label for="student">
+                        <input type="checkbox" id="student" value="Student" name="memberships">
+                        Student
+                    </label>
+                    <label for="senior">
+                        <input type="checkbox" id="senior" value="Senior" name="memberships">
+                        Senior
+                    </label>
+                </fieldset>
+                <fieldset class="additionalinfo">
+                    <legend> Additional Information </legend>
+                    <label for="feedback">
+                        Questions or special requests
+                        <textarea name="values" id="feedback" rows="7">
+                                </textarea>
+                    </label>
+                </fieldset>
+                <fieldset class="submitbutton">
+                    <input type="submit" id="submit" value="Submit">
+                </fieldset>
+            </form>
+        </article>
+    </div>
+</body>
+<footer>
+    <p class="bottomFooter">Fl33t Ninjas 2018</p>
+</footer>
+
 </html>
