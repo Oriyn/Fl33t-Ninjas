@@ -1,2 +1,2 @@
-# professional-gametards
-Website for the guild "Professional Gametards"
+# fl33t-ninjas
+Website for the guild "Fl33t Ninjas"
