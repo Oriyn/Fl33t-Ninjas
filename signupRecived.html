@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Fl33t-Ninjas.com</title>
@@ -24,9 +24,26 @@
         <div><a href="AboutUs.html">About Us</a></div>
         <div><a href="ContactUs.html">Contact Us</a></div>
         <div><a href="GamingHighlights.html">Gaming Highlights</a></div>
-        <div><a href="Gallery.html">Gallery</a></div>
+        <div><a href="Gallery.html">Gallery</a></div> 
     </nav>
     <div>
+            <article id="contentstart">
+                    <h2>Your form has been submitted</h2>
+                       <h3>You entered the following data:</h3>
+                 
+                       <script>
+                           var formData = location.search;
+                           formData = formData.substring(1, formData.length);
+                           while (formData.indexOf("+") !== -1) {
+                              formData = formData.replace("+", " ");
+                           }
+                           formData = decodeURIComponent(formData);
+                           var formArray = formData.split("&");
+                           for (var i = 0; i < formArray.length; i = i + 1) {
+                              document.write("<p>" + formArray[i] + "</p>");
+                           }
+                       </script>
+                 </article>
     </div>
 </body>
 <footer>
