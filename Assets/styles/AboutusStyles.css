@@ -4,17 +4,17 @@
   date: 11/24/18
 
 */
-
 legend{
         font-family: 'Orbitron', sans-serif;
         color: lightgreen;
         text-shadow: 0 0 15px white;
         font-weight: bold;
+        text-align: center;
 }
 fieldset{
     background:rgba(0, 0, 0, 0.808);
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 .picContainer{
@@ -27,4 +27,17 @@ fieldset{
   grid-row-gap: 40px;
   background: rgba(0, 0, 0, 0.808);
 }
+.parallaxAbout { 
+  /* The image used */
+  background-image: url("../images/World-of-warcraft.jpg");
 
+  /* Set a specific height */
+  height: 1600px;
+  min-height: 100% ;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

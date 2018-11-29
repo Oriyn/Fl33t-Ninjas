@@ -4,7 +4,21 @@
   date: 11/24/18
 
 */
+/* parallax scrolling */
+.parallax { 
+  /* The image used */
+  background-image: url("../images/World-of-warcraft.jpg");
 
+  /* Set a specific height */
+  height: 3000px;
+  min-height: 100% ;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 25% 25% 25%;
