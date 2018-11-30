@@ -1,5 +1,6 @@
 .mainContent {
     display: grid;
+    width: 65%;
     margin: 0 auto 0 auto;
     grid-template-columns: 60%;
     padding: 20px;
@@ -14,7 +15,7 @@
     background-image: url("../images/World-of-warcraft.jpg");
   
     /* Set a specific height */
-    height: 1000px;
+    height: 1100px;
     min-height: 100% ;
   
     /* Create the parallax scrolling effect */
