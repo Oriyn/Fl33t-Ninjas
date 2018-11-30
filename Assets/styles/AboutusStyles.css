@@ -4,22 +4,24 @@
   date: 11/24/18
 
 */
-legend{
-        font-family: 'Orbitron', sans-serif;
-        color: lightgreen;
-        text-shadow: 0 0 15px white;
-        font-weight: bold;
-        text-align: center;
+.desc{
+  color: white;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
 }
-fieldset{
+.mainContent{
     background:rgba(0, 0, 0, 0.808);
+    position: relative;
     margin: 0 auto;
     margin-top: 50px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto
 }
 .picContainer{
   display: grid;
-  grid-template-columns: 50% 50%;
+  width: 65%;
+  margin: 0 auto 0 auto;
+  grid-template-columns: 60%;
   padding: 20px;
   justify-items: center;
   justify-content: space-evenly;
@@ -32,7 +34,7 @@ fieldset{
   background-image: url("../images/World-of-warcraft.jpg");
 
   /* Set a specific height */
-  height: 1600px;
+  height: 2600px;
   min-height: 100% ;
 
   /* Create the parallax scrolling effect */

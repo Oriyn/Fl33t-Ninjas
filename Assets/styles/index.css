@@ -1,0 +1,26 @@
+.mainContent {
+    display: grid;
+    width: 65%;
+    margin: 0 auto 0 auto;
+    grid-template-columns: 60%;
+    padding: 20px;
+    justify-items: center;
+    justify-content: space-evenly;
+    grid-column-gap: 50px;
+    grid-row-gap: 40px;
+    background: rgba(0, 0, 0, 0.808);
+}
+.parallax { 
+    /* The image used */
+    background-image: url("../images/World-of-warcraft.jpg");
+  
+    /* Set a specific height */
+    height: 1100px;
+    min-height: 100% ;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
