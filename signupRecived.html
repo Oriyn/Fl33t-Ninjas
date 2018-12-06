@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Fl33t-Ninjas.com</title>
     <!--
@@ -9,46 +10,49 @@
       Supporting files: main.css
 
 -->
+    <meta charset="UTF-8">
     <link rel="icon" href="Assets/images/Fl33t.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="Assets/styles/main.css" rel="stylesheet" type="text/css">
     <link href="Assets/styles/Contact.css" rel="stylesheet" type="text/css">
 </head>
-<div class="parallax">
-<body>
-    <header>
-        <h1>Fl33t Ninjas</h1>
-    </header>
-    <nav class="topnav">
-        <div><a href="index.html">Home</a></div>
-        <div><a href="AboutUs.html">About Us</a></div>
-        <div><a href="ContactUs.html">Contact Us</a></div>
-        <div><a href="GamingHighlights.html">Gaming Highlights</a></div>
-        <div><a href="Gallery.html">Gallery</a></div>
-    </nav>
-    <div>
-        <article id="contentstart">
-            <h2>Your form has been submitted</h2>
-            <h3>You entered the following data:</h3>
 
-            <script>
-                var signUpData = location.search;
-                signUpData = signUpData.substring(1, signUpData.length);
-                while (signUpData.indexOf("+") !== -1) {
-                    signUpData = signUpData.replace("+", " ");
-                }
-                signUpData = decodeURIComponent(signUpData);
-                var signupArray = signUpData.split("&");
-                for (var i = 0; i < signupArray.length; i = i + 1) {
-                    document.write("<p>" + signupArray[i] + "</p>");
-                }
-            </script>
-        </article>
+<body>
+    <div class="parallax">
+        <header>
+            <h1>Fl33t Ninjas</h1>
+        </header>
+        <nav class="topnav">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="AboutUs.html">About Us</a></div>
+            <div><a href="ContactUs.html">Contact Us</a></div>
+            <div><a href="GamingHighlights.html">Gaming Highlights</a></div>
+            <div><a href="Gallery.html">Gallery</a></div>
+        </nav>
+        <div>
+            <article id="contentstart">
+                <h2>Your form has been submitted</h2>
+                <h3>You entered the following data:</h3>
+
+                <script>
+                    var signUpData = location.search;
+                    signUpData = signUpData.substring(1, signUpData.length);
+                    while (signUpData.indexOf("+") !== -1) {
+                        signUpData = signUpData.replace("+", " ");
+                    }
+                    signUpData = decodeURIComponent(signUpData);
+                    var signupArray = signUpData.split("&");
+                    for (var i = 0; i < signupArray.length; i = i + 1) {
+                        document.write("<p>" + signupArray[i] + "</p>");
+                    }
+                </script>
+            </article>
+        </div>
+        <footer>
+            <p class="bottomFooter">Copyright © 2018 www.fl33t-ninjas.com All rights reserved.
+                All trademarks used are properties of their respective owners.</p>
+        </footer>
     </div>
 </body>
-<footer>
-        <p class="bottomFooter">Copyright © 2018 www.fl33t-ninjas.com All rights reserved.
-                All trademarks used are properties of their respective owners.</p>
-</footer>
-</div>
+
 </html>
