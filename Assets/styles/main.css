@@ -22,9 +22,17 @@ h1, h2{
 
 
 /* Body Section */
+
 ul{
    list-style-type: none;
    font-weight: bold;
+}
+a{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  text-shadow: 0 0 15px lightgreen;
+  font-weight: bold;
+  text-align: center; 
 }
 a:link:hover, a:visited:hover{
   color: red;
