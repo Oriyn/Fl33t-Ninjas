@@ -12,11 +12,11 @@
         <link rel="icon" href="Assets/images/Fl33t.jpg" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
         <link href="Assets/styles/main.css" rel="stylesheet" type="text/css">
-        <link href="Assets/styles/index.css" rel="stylesheet" type="text/css">
         <link href="Assets/styles/Gameiframe.css" rel="stylesheet" type="text/css">
+        <script src="Assets/Scripts/GameChange.js"></script>
     </head>
     <div class="parallax">
-    <body>
+    <body onload="loadGame()">
         <header>
             <h1>Fl33t Ninjas</h1>
         </header>
@@ -27,9 +27,8 @@
             <div><a href="GamingHighlights.html">Gaming Highlights</a></div>
             <div><a href="Gallery.html">Gallery</a></div>
         </nav>
-        <h2>News:</h2>
-  
-         <iframe  src="http://airconsole.com/#http://fl33tninjas.com/game" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        <br></br>
+         <iframe id="gameFrame"  src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
 
     </body>
